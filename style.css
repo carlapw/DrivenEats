@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0000002a;
+}
+header{
+   background-color: #CF2B2B;
+    width: 100%;
+    height: 6rem;
+    position: fixed;
+    color: white;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);
+}
+.h1doheader{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 44px;
+    margin-left: 1.3rem;
+}
+.paragrafodoheader{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 1.3rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+.h1DoPrato{
+    margin-top: 7.5rem;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    margin-left: 1rem;
+}
+.sessaoPratos{
+    display: flex;
+    overflow: auto;
+    margin-top: 0.9rem;
+}
+.prato1{
+    background-color: #FFFFFF;
+    margin-right: 1rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1.1rem;
+    border-radius: 0.6rem;
+    border: 5px solid transparent;
+    transition: border-color 0.2s ease ;
+}
+.imgPrimeiroPrato{
+    width: 9rem;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 1.7rem;
+}
+.prato2{
+    background-color: white;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.6rem;
+    border: 5px solid transparent;
+    transition: border-color 0.2s ease ;
+}
+.imgSegundoPrato{
+    width: 9rem;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 1.7rem;
+    
+}
+.prato3{
+    background-color: white;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.6rem;
+    border: 5px solid transparent;
+    transition: border-color 0.2s ease ;
+}
+.imgTerceiroPrato{
+    width: 9rem;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 1.7rem;
+}
+.h1dabebida{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+}
+.sessaoBebidas{
+    display: flex;
+    overflow: auto;
+    margin-top: 0.8rem;
+}
+.bebida1{
+    background-color: #FFFFFF;
+    margin-right: 1rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1.1rem;
+    border-radius: 0.6rem;
+    border: 5px solid transparent;
+    transition: border-color 0.2s ease ;
+}
+.imgBebida1{
+    width: 9rem;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 1.7rem;
+}
+.bebida2{
+    background-color: white;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.6rem;
+    border: 5px solid transparent;
+    transition: border-color 0.2s ease ;
+}
+.imgBebida2{
+    width: 9rem;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 1.7rem;
+}
+.bebida3{
+    background-color: white;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.6rem;
+    border: 5px solid transparent;
+    transition: border-color 0.2s ease ;
+}
+.imgBebida3{
+    width: 9rem;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 1.7rem;
+}
+.h1dasobremesa{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+}
+.sessaoSobremesas{
+    display: flex;
+    overflow: auto;
+    margin-top: 0.8rem;
+    margin-bottom: 7rem;
+
+}
+.sobremesa1{
+    background-color: white;
+    height: 15rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.6rem;
+    border: 5px solid transparent;
+    transition: border-color 0.2s ease ;
+}
+.imgSobremesa1{
+    width: 9rem;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 1.7rem;
+}
+.sobremesa2{
+    background-color: white;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.6rem;
+    border: 5px solid transparent;
+    transition: border-color 0.2s ease ;
+}
+.imgSobremesa2{
+    width: 9rem;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 1.7rem;
+}
+.sobremesa3{
+    background-color: white;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.6rem;
+    border: 5px solid transparent;
+    transition: border-color 0.2s ease ;
+}
+.imgSobremesa3{
+    width: 9rem;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 1.7rem;
+}
+footer{
+    background-color:white;
+    width: 100%;
+    height: 6rem;
+    margin-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todos_h6{
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+.todasDescricao{
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: #A6A6A6;
+}
+.descricaoPratos{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    
+   
+}
+.preco_da_refeicao{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+}
+.prato1:hover{
+    border-color: #32B72F;
+}
+.prato2:hover{
+    border-color: #32B72F;
+}
+.prato3:hover{
+    border-color: #32B72F;
+}
+.bebida1:hover{
+    border-color: #32B72F;
+}
+.bebida2:hover{
+    border-color: #32B72F;
+}
+.bebida3:hover{
+    border-color: #32B72F;
+}
+.sobremesa1:hover{
+    border-color: #32B72F;
+}
+.sobremesa2:hover{
+    border-color: #32B72F;
+}
+.sobremesa3:hover{
+    border-color: #32B72F;
+}
+#botao{
+    background-color: #CBCBCB;
+    width: 21rem;
+    height: 3rem;
+    border-radius: 3.5rem;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+#botao:hover{
+    background-color: #32B72F;
+}
+#resumoPedido a {
+     
+    width: 15rem; 
+    margin: 10px 0; 
+    padding: 15px;
+    border: none;
+    background-color:white;
+    color: #50D074;
+    border-radius: 20px;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  
+  #fundo {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.693); 
+    z-index: 1000; 
+  }
+  
+  #resumoPedido {
+    position: fixed;
+    width: 377px;
+    height: 353px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#50D074;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1010; 
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+  }
+  #paragrafo{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+  }
+  #resumoPedido button {
+   border: none;
+   background-color: #50D074;
+   color: white;
+   border-radius: 20px;
+   font-family: "Roboto", serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 20px;
+   text-decoration: none;
+ }

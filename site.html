@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive Eats</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        </style>
+</head>
+<body>
+    <header>
+        <h1 class="h1doheader">DriveEats</h1>
+        <p class="paragrafodoheader">Sua comida em 6 minutos</p>
+    </header>
+
+    <main>
+        
+        <h1 class="h1DoPrato">Primeiro, seu Prato</h1>
+        <section class="sessaoPratos">
+
+            <div class="prato1"  data-nome="frango" data-preco="14.90"> 
+                <img  class="imgPrimeiroPrato" src="projeto__driven-eats__imagens/pf_frango.jpg" alt="">
+                <div class="descricaoPratos">
+                    <h6 class="todos_h6">Frango Yin Yang</h6>
+                    <p class="todasDescricao">Um pouco de arroz, <br>
+                    Um pouco de Salada</p>
+                    <p class="preco_da_refeicao">14,90</p>
+                </div>
+                
+            </div>
+
+
+            <div class="prato2"  data-nome="Calabresa" data-preco="14.90"> 
+                <img  class="imgSegundoPrato" src="projeto__driven-eats__imagens/pf_calabresa.png" alt="">
+                <div class="descricaoPratos">
+                    <h6 class="todos_h6">Calabresa</h6>
+                    <p class="todasDescricao">Um pouco de batata, <br>
+                    Um pouco de arroz.</p>
+                    <p>14,90</p>
+                </div>
+
+            </div>
+
+
+            <div class="prato3"  data-nome="Carne" data-preco="14.90">
+                <img  class="imgTerceiroPrato" src="projeto__driven-eats__imagens/pf_carne.jpg" alt="">
+                <div class="descricaoPratos">
+                    <h6 class="todos_h6">Carne</h6>
+                    <p class="todasDescricao">Um pouco de batata, <br>
+                    Um pouco de Salada</p>
+                    <p>14,90</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <h1 class="h1dabebida">Agora, sua bebida</h1>
+
+        <section class="sessaoBebidas">
+
+            <div class="bebida1"  data-nome="Coca" data-preco="5.90">
+                <img class="imgBebida1" src="projeto__driven-eats__imagens/coca.png" alt="">
+                <div class="descricaoPratos">
+                    <h6 class="todos_h6">Coca Cola</h6>
+                    <p class="todasDescricao">Lata 350ml <br>
+                    </p>
+                    <p>5,90</p>
+                </div>
+            </div>
+
+            <div class="bebida2"  data-nome="fanta" data-preco="4.90">
+                <img class="imgBebida2" src="projeto__driven-eats__imagens/fanta.png" alt="">
+                <div class="descricaoPratos">
+                    <h6 class="todos_h6">Fanta lata</h6>
+                    <p class="todasDescricao">Lata 350ml <br>
+                    <p>4,90</p>
+                </div>
+
+            </div>
+
+            <div class="bebida3"  data-nome="Suco" data-preco="4.00">
+                <img class="imgBebida3" src="projeto__driven-eats__imagens/suco.png" alt="">
+                <div class="descricaoPratos">
+                    <h6 class="todos_h6">Suco de Laranja</h6>
+                    <p class="todasDescricao">Copo 300ml</p>
+                    <p>3,00</p>
+                </div>
+            </div>
+
+        </section>
+        <h1 class="h1dasobremesa">Por fim, sua sobremesa</h1>
+        <section class="sessaoSobremesas">
+
+            <div class="sobremesa1"    data-nome="Pudim" data-preco="7.00">
+                <img class="imgSobremesa1" src="projeto__driven-eats__imagens/pudim.jpg" alt="frago yin yan" >
+                <div class="descricaoPratos">
+                    <h6 class="todos_h6">Pudim</h6>
+                    <p class="todasDescricao">mine Pudim</p>
+                    <p>7,00</p>
+                </div>
+               
+
+            </div>
+
+            <div class="sobremesa2"   data-nome="Mouse" data-preco="7.00">
+                <img class="imgSobremesa2" src="projeto__driven-eats__imagens/mouse.jpg" alt="">
+                <div class="descricaoPratos">
+                    <h6 class="todos_h6">Mousse</h6>
+                    <p class="todasDescricao" >Mousse de Maracuja</p>
+                    <p>7,00</p>
+                </div>
+
+            </div>
+
+            <div class="sobremesa3"   data-nome="Brownie" data-preco="7.50">
+                <img class="imgSobremesa3" src="projeto__driven-eats__imagens/brownie.jpg" alt="">
+                <div class="descricaoPratos">
+                    <h6 class="todos_h6">Brownie</h6>
+                    <p class="todasDescricao">Brownie delicioso</p>
+                    <p>7,50</p>
+                </div>
+            </div>
+
+        </section>
+        <div id="informacoes"> </div>
+        <div id="fundo"></div>
+    </main>
+
+    <footer>
+        <button id="botao" > Selecione os 3 itens <br> para fechar o pedido</button>
+    </footer>
+
+    <script src="script2.js"></script>
+    
+</body>
+</html>
